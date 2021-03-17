@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import Dashboard from '../Manager/Dashboard';
-import Report from '../Manager/Report';
-import History from '../Manager/History';
-import News from '../Manager/News';
-import Reimbursement from '../Manager/Reimbursement';
+import Dashboard from '../Dashboard';
+import Report from '../Report';
+import History from '../History';
+import News from '../News';
+import Reimbursement from '../Reimbursement';
 
 class Tab extends Component {
     render() {
         return (
             <div>
-                <div className="container mt-3">
+                <div className="mt-3">
                     <ul className="nav nav-tabs" style={{backgroundColor:"#EEE7E7", width:"100%"}}>
                         <li className="nav-item">
                             <a className="nav-link active" data-toggle="tab" href="#dashboard">Dashboard</a>
