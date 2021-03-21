@@ -8,6 +8,7 @@ const AddExpenseForm = (props) => {
             <FormGroup>
                 <Label for="employeeSelect">To</Label>
                 <Input type="select" name="select" id="employeeSelect">
+                    <option aria-label="None" value="" />
                     <option>Employee1</option>
                     <option>Employee2</option>
                     <option>Employee3</option>
@@ -18,6 +19,7 @@ const AddExpenseForm = (props) => {
             <FormGroup>
                 <Label for="expenseTypeSelect">Category</Label>
                 <Input type="select" name="select" id="expenseTypeSelect">
+                    <option aria-label="None" value="" />
                     <option>Travel</option>
                     <option>Food</option>
                     <option>Accomodation</option>
@@ -28,6 +30,7 @@ const AddExpenseForm = (props) => {
             <FormGroup>
                 <Label for="paymentSelect">Payment Method</Label>
                 <Input type="select" name="selectMulti" id="paymentSelect">
+                    <option aria-label="None" value="" />
                     <option>Cash</option>
                     <option>Card</option>
                     <option>Bank</option>
@@ -54,7 +57,7 @@ const AddExpenseForm = (props) => {
         </FormText>
             </FormGroup>
             <div className="SubmitBtn">
-            <Button>Submit</Button>
+                <Button>Submit</Button>
             </div>
         </Form>
     );
